@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background: url("./dawid-zawila--G3rw6Y02D0-unsplash.jpg");
+  background-size: cover;
+  font-family: cursive;
+}
+.form {
+  background-color: #dbe4ff;
+  opacity: 0.8;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 10px;
+}
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border: solid 4px#2f9e44;
+  color: #2b8a3e;
+}
+.input::placeholder {
+  color: #8ce99a;
+  font-family: cursive;
+}
+.btn {
+  background-color: #2f9e44;
+  border: none;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  cursor: pointer;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.score {
+  color: #2b8a3e;
+  text-align: right;
+}
